@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fullPageLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".CovidForm3">
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="638dp"
+        android:layout_height="916dp"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="204dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="160dp"
+        android:text="          I understand that If I have any of the following symptoms, I cannot recieve this elective service. \n \n - Cough \n \n - Shortness of breath or difficulty breathing \n \n - Chills \n \n - Repeated shaking with chills \n \n - Muscle pain \n \n - headache \n \n - Sore throat \n \n - Loss of taste or smell \n \n - Diarrhea \n \n - Feeling feverish or a measured temperature greater than or equal to 100.0 degrees Fahrenheit \n \n - Known close contact witha person who is lab confirmed to have COVID-19 \n \n - if you are currently awaiting results of a COVID-19 Test"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TitleText"
+        android:layout_width="753dp"
+        android:layout_height="119dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="71dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="1090dp"
+        android:gravity="center"
+        android:text="PLATINUM LASHES \n INFORMED CONSENT - COVID-19 PANDEMIC"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/signArea"
+        android:layout_width="358dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="404dp"
+        android:layout_marginTop="1014dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="178dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@color/common_google_signin_btn_text_dark_default" />
+
+    <EditText
+        android:id="@+id/NameBox"
+        android:layout_width="322dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="1020dp"
+        android:layout_marginEnd="420dp"
+        android:layout_marginBottom="178dp"
+        android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+        android:gravity="center"
+        android:hint="FIrst and Last Name"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="222dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="510dp"
+        android:layout_marginTop="1111dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="121dp"
+        android:text="Signature Here"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/dateView"
+        android:layout_width="298dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="251dp"
+        android:layout_marginTop="1150dp"
+        android:layout_marginEnd="251dp"
+        android:layout_marginBottom="68dp"
+        android:gravity="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/finshButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="596dp"
+        android:layout_marginTop="1173dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginBottom="59dp"
+        android:text="Complete Form"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

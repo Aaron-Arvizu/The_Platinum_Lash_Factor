@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.platinumlashes.lashdemomkiv">
+
+    <uses-permission android:name="android.permission.camera2" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/platlash"
+        android:label="Platinum Lash Factor"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".TheMovieAppStrikesBack"></activity>
+        <activity
+            android:name=".CovidForm3"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".CovidForm2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CovidForm"
+            android:label="@string/title_activity_covid_form"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".AddEmpActivity" />
+        <activity
+            android:name=".TodayActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Questionaire"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PrevAppt"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LashReleaseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GlenClientList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Appointments"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TClientDetailActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ClientDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ClientList"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".AddClient"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuestionaireForReturning"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LashReleaseActivityForReturning"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

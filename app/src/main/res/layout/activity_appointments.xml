@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".Appointments">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:keepScreenOn="true">
+
+
+        <TextView
+            android:id="@+id/fName4"
+            android:layout_width="300dp"
+            android:layout_height="84dp"
+            android:layout_marginStart="62dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="438dp"
+            android:layout_marginBottom="1313dp"
+            android:background="@null"
+            android:textAlignment="textEnd"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="45sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/mName4"
+            android:layout_width="98dp"
+            android:layout_height="99dp"
+            android:layout_marginStart="359dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="343dp"
+            android:layout_marginBottom="1298dp"
+            android:background="@null"
+            android:textAlignment="center"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="45sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/lName4"
+            android:layout_width="323dp"
+            android:layout_height="81dp"
+            android:layout_marginStart="456dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="21dp"
+            android:layout_marginBottom="1317dp"
+            android:background="@null"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="45sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Spinner
+            android:id="@+id/glueSpinner"
+            android:layout_width="536dp"
+            android:layout_height="85dp"
+            android:layout_marginStart="132dp"
+            android:layout_marginTop="419dp"
+            android:layout_marginEnd="132dp"
+            android:layout_marginBottom="904dp"
+            android:background="@drawable/rounded_corner"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/startTxt"
+            android:layout_width="208dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="132dp"
+            android:layout_marginTop="84dp"
+            android:layout_marginEnd="460dp"
+            android:layout_marginBottom="1274dp"
+            android:text="StartTime:"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/startTime"
+            android:layout_width="330dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="302dp"
+            android:layout_marginTop="96dp"
+            android:layout_marginEnd="168dp"
+            android:layout_marginBottom="1276dp"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/endBtn"
+            android:layout_width="728dp"
+            android:layout_height="102dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="1259dp"
+            android:layout_marginEnd="32dp"
+            android:text="Finish Appointment"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/recentPhotoAppt"
+            android:layout_width="366dp"
+            android:layout_height="296dp"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="673dp"
+            android:layout_marginEnd="415dp"
+            android:layout_marginBottom="419dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@color/background" />
+
+        <ImageView
+            android:id="@+id/diagramWindow"
+            android:layout_width="407dp"
+            android:layout_height="373dp"
+            android:layout_marginStart="385dp"
+            android:layout_marginTop="643dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="392dp"
+            android:rotation="90"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/diagramplaceholder1" />
+
+
+        <EditText
+            android:id="@+id/clientNotes"
+            android:layout_width="725dp"
+            android:layout_height="238dp"
+            android:layout_marginStart="43dp"
+            android:layout_marginTop="1012dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="111dp"
+            android:background="@drawable/rounded_corner"
+            android:ems="10"
+            android:gravity="top|left"
+            android:hint="appointment notes"
+            android:inputType="textMultiLine"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Spinner
+            android:id="@+id/eyePadSpinner"
+            android:layout_width="536dp"
+            android:layout_height="88dp"
+            android:layout_marginStart="132dp"
+            android:layout_marginTop="519dp"
+            android:layout_marginEnd="132dp"
+            android:layout_marginBottom="801dp"
+            android:background="@drawable/rounded_corner"
+            android:text="Upload New Photo"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Spinner
+            android:id="@+id/locationSpinner"
+            android:layout_width="536dp"
+            android:layout_height="88dp"
+            android:layout_marginStart="132dp"
+            android:layout_marginTop="211dp"
+            android:layout_marginEnd="132dp"
+            android:layout_marginBottom="1109dp"
+            android:background="@drawable/rounded_corner"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Spinner
+            android:id="@+id/apptSpinner"
+            android:layout_width="536dp"
+            android:layout_height="88dp"
+            android:layout_marginStart="132dp"
+            android:layout_marginTop="316dp"
+            android:layout_marginEnd="132dp"
+            android:layout_marginBottom="1004dp"
+            android:background="@drawable/rounded_corner"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/uploadPhotoBtn"
+            android:layout_width="333dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="955dp"
+            android:layout_marginEnd="427dp"
+            android:layout_marginBottom="388dp"
+            android:text="Upload New Photo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/uploadDiagramBtn"
+            android:layout_width="333dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="424dp"
+            android:layout_marginTop="931dp"
+            android:layout_marginEnd="43dp"
+            android:layout_marginBottom="365dp"
+            android:text="Create New Diagram"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/allergyEnter"
+            android:layout_width="536dp"
+            android:layout_height="88dp"
+            android:layout_marginStart="132dp"
+            android:layout_marginTop="620dp"
+            android:layout_marginEnd="132dp"
+            android:layout_marginBottom="700dp"
+            android:background="@drawable/rounded_corner"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Allergy Info (leave blank if needed)"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/pastPicOnClick"
+            android:layout_width="340dp"
+            android:layout_height="196dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="745dp"
+            android:layout_marginEnd="420dp"
+            android:layout_marginBottom="467dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/pastDiagramOnClick"
+            android:layout_width="361dp"
+            android:layout_height="199dp"
+            android:layout_marginStart="408dp"
+            android:layout_marginTop="733dp"
+            android:layout_marginEnd="31dp"
+            android:layout_marginBottom="476dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/lastdetbtn"
+            android:layout_width="230dp"
+            android:layout_height="53dp"
+            android:layout_marginStart="285dp"
+            android:layout_marginTop="145dp"
+            android:layout_marginEnd="285dp"
+            android:layout_marginBottom="1215dp"
+            android:text="view last appt. details"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/todayApptBtn"
+        android:layout_width="643dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="988dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="192dp"
+        android:background="@drawable/rounded_corner"
+        android:text="Todays Appointments"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/addEmpBtn"
+        android:layout_width="643dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="1112dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="68dp"
+        android:background="@drawable/rounded_corner"
+        android:text="Add Employee"
+        android:textSize="36sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/clientListBtn"
+        android:layout_width="643dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="731dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="449dp"
+        android:background="@drawable/rounded_corner"
+        android:text="client list"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/lashReleaseBtn"
+        android:layout_width="643dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="862dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="318dp"
+        android:background="@drawable/rounded_corner"
+        android:text="Lash Release"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="486dp"
+        android:layout_height="449dp"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="165dp"
+        android:layout_marginEnd="157dp"
+        android:layout_marginBottom="665dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/platlash" />
+
+    <TextView
+        android:id="@+id/versionText"
+        android:layout_width="125dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="509dp"
+        android:layout_marginTop="608dp"
+        android:layout_marginEnd="166dp"
+        android:layout_marginBottom="632dp"
+        android:text="Version 1.5.1"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="182dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="392dp"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="226dp"
+        android:layout_marginBottom="1140dp"
+        android:text="User:"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/usersName"
+        android:layout_width="143dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="475dp"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="182dp"
+        android:layout_marginBottom="1121dp"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/signOutBtn"
+        android:layout_width="120dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="634dp"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="1143dp"
+        android:text="Sign Out"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

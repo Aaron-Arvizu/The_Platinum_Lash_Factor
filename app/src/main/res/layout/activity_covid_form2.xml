@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FullPageLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CovidForm2">
+
+    <TextView
+        android:id="@+id/TitleText"
+        android:layout_width="753dp"
+        android:layout_height="119dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="71dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="1090dp"
+        android:gravity="center"
+        android:text="PLATINUM LASHES \n INFORMED CONSENT - COVID-19 PANDEMIC"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/covid2view"
+        android:layout_width="749dp"
+        android:layout_height="965dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="243dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="72dp"
+        android:text="          I understand that possible exposure to COVID-19 before/during/after my service/treatment may result in any of the following: a positive COVID-19 diagnosis, extended quarantine/self=isolation, additional tests,hospitalizaton that may require medical therapy, intensive care treatment, possible need for intubation/ventilator support, short-term or long-term intubation, other potential complications, and the risk of death. In addition, after my elective service/treatment, I may need additional care that may require me to go to an emergency room or a hospital. \n \n             I understand that COVID-19 may cause additional risks, some or many of which may not currently be known at this time, in addition to the risks described in this Informed Consent, as well as those risks for the service/treatment. \n \n              I have been given the option to defer my treatment/procedure to a later date. However, I understand all the potential risk, including, but not limited to the potential short-term and long-term complications related to COVID--19, and I would like to proceed with my desired service/treatment. I acknowledge that I have been offered a copy of this consent form. \n \n           I UNDERSTAND THE EXPLANATION AND HAVE NO MORE QUESTION AND CONSENT TO THE PROCEDURE. i HOLD PLATINUM LASHES AND ALL EMPLOYEES HARMLESS SHOULD I CONTRACT COVID-19 AS A RESULT OF TODAY'S VISIT."
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/initialArea2"
+        android:layout_width="177dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="1109dp"
+        android:layout_marginEnd="577dp"
+        android:layout_marginBottom="71dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@color/common_google_signin_btn_text_dark_default" />
+
+    <TextView
+        android:id="@+id/initialText2"
+        android:layout_width="250dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="1075dp"
+        android:layout_marginEnd="504dp"
+        android:layout_marginBottom="153dp"
+        android:text=" Initials below"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/nxtBtn2"
+        android:layout_width="213dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="513dp"
+        android:layout_marginTop="1075dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/nxtbtn" />
+
+    <TextView
+        android:id="@+id/nxtText2"
+        android:layout_width="132dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="594dp"
+        android:layout_marginTop="1059dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="183dp"
+        android:text="Next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

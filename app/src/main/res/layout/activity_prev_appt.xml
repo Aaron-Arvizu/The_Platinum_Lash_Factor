@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PrevAppt">
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="659dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="303dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="872dp"
+        android:background="@drawable/rounded_corner"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/b5"
+        android:layout_width="659dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="865dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="310dp"
+        android:background="@drawable/rounded_corner"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="659dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="449dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="726dp"
+        android:background="@drawable/rounded_corner"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="659dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="588dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="587dp"
+        android:background="@drawable/rounded_corner"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="659dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="729dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="446dp"
+        android:background="@drawable/rounded_corner"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="401dp"
+        android:layout_height="131dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="109dp"
+        android:layout_marginEnd="199dp"
+        android:layout_marginBottom="1040dp"
+        android:gravity="center"
+        android:text="Previous Cards"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

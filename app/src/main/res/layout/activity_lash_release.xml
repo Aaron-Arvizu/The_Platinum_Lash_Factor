@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/formLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".LashReleaseActivity">
+
+    <TextView
+        android:id="@+id/lashRelease"
+        android:layout_width="766dp"
+        android:layout_height="640dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="204dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="436dp"
+        android:scrollbars="vertical"
+        android:text="                By signing below you agree to the following. \n \n \n \n   Please put Cell phones on vibrate and limit any calls to a minute or less if needed for emergency purposes. \n \n   Please no eating or chewing gum during your Lash session. \n  \n   I understand the eyelash extensions will be applied to the natural lash as determined by Platinum Lashes. Care will be taken not to create excessive weight thereby preserving the health and growth of the natural lashes. \n \n   I understand as part of the procedure, eye irritation, itching, discomfort and in very rare cases infection could occur. \n \n   I understand and agree that if I experience any of these issues with my lashes, I will contact Platinum Lashes. I will have the eyelashes immediately removed and consult a physician at my own expense. \n \n   I understand that the procedure will require that I keep my eyes closed for the duration of 60-150 minutes. I understand that I will be lying in a reclined position for the duration of the service. I do not have any medical conditions that might be aggraggravated by lying still for a prolonged period of time. \n \n   I understand and agree to follow the care instructions provided by Platinum Lashes for the use and care of my eyelash extensions. Failure to follow care instructions my cause lashes to fall out, damage extensions and/or decrease the lasting ability of the extension. \n \n   damage extensions and/or decrease the lasting ability of the extension. \n \n   Do not Cut, Perm, Curl or Tint Lash Extensions. Do not attempt to remove your Lash Extensions on your own. Platinum Lashes is not responsible for damage to natural lashes caused by mistreatment of Lash Extensions. Lash damage requiring a new set will be charged accordingly \n \n   I have received and reviewed a copy of Platinum Lashes after care instructions. \n \n   At Platinum Lashes we put our client’s needs first, all appointments are booked with care to ensure the proper time frame required for optimum results therefore we require a minimum 24 hour cancellation notice. A $30 fee will be incurred for missed appointments. \n \n   Due to the nature of the service and the length of time to apply Eyelash Extensions, there are no refunds or exchanges. \n \n   I agree to have pictures of my eyelashes taken for reference in future appointments. These images will NOT be used in any kind of promotion. \n \n   I have agreed to have a specialist at Platinum Lashes to apply and/or remove eyelash extensions to my eyelashes. I hold harmless Platinum Lashes and all specialists associated with Platinum Lashes, with respect to any and all injury, loss or damage to person or personal property. This agreement will remain in effect for today’s procedure, and all future procedures conducted by Platinum Lashes.      "
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:background="@color/common_google_signin_btn_text_dark_default" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="798dp"
+        android:layout_height="106dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="1120dp"
+        android:gravity="center"
+        android:text="Lash Release Form"
+        android:textAlignment="center"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/signatureBox"
+        android:layout_width="766dp"
+        android:layout_height="161dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="968dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="151dp"
+        android:background="@drawable/rounded_corner"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@color/common_google_signin_btn_text_dark_default" />
+
+    <TextView
+        android:id="@+id/signatureText"
+        android:layout_width="257dp"
+        android:layout_height="81dp"
+        android:layout_marginStart="272dp"
+        android:layout_marginTop="1017dp"
+        android:layout_marginEnd="271dp"
+        android:layout_marginBottom="182dp"
+        android:gravity="center"
+        android:text="Tap to Sign"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        style="@android:style/Widget.Holo.CompoundButton.RadioButton"
+        android:layout_width="664dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="912dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="326dp"
+        android:checked="false"
+        android:text="   I have read and understand this form."
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/finishBtn"
+        android:layout_width="772dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="1147dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="53dp"
+        android:text="Continue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ttest"
+        android:layout_width="333dp"
+        android:layout_height="148dp"
+        android:layout_marginStart="185dp"
+        android:layout_marginTop="325dp"
+        android:layout_marginEnd="282dp"
+        android:layout_marginBottom="807dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="220dp"
+        android:layout_height="553dp"
+        android:layout_marginStart="330dp"
+        android:layout_marginTop="867dp"
+        android:layout_marginEnd="330dp"
+        android:text="(scroll to read more)"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.228" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="180dp">
+
+
+    <EditText
+        android:id="@+id/lname2edit"
+        android:layout_width="282dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="439dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="66dp"
+        android:gravity="center"
+        android:text="Last Name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/fname2edit"
+        android:layout_width="282dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="460dp"
+        android:layout_marginBottom="66dp"
+        android:gravity="center"
+        android:text="First Name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/mname2edit"
+        android:layout_width="61dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="359dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="380dp"
+        android:layout_marginBottom="66dp"
+        android:gravity="center"
+        android:text="M"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/confirmButtonEd"
+        android:layout_width="127dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="458dp"
+        android:layout_marginTop="131dp"
+        android:layout_marginEnd="215dp"
+        android:layout_marginBottom="5dp"
+        android:text="Edit Name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/deleteButtonEd"
+        android:layout_width="135dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="174dp"
+        android:layout_marginTop="131dp"
+        android:layout_marginEnd="491dp"
+        android:layout_marginBottom="2dp"
+        android:text="Delete Client"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/closeEdButton"
+        android:layout_width="61dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="734dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="112dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_delete" />
+
+</android.support.constraint.ConstraintLayout>

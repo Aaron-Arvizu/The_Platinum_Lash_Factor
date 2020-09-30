@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#DE8C76</color>
+    <color name="colorPrimaryDark">#DE8C76</color>
+    <color name="colorAccent">#9BBBB0 </color>
+    <color name="background">#9BBBB0 </color>
+    <color name="platinumorange">#DE8C76</color>
+</resources>

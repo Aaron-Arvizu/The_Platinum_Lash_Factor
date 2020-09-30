@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/alertdialog"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/diagramName2"
+        android:layout_width="331dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="422dp"
+        android:layout_marginTop="770dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="437dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.43" />
+
+    <TextView
+        android:id="@+id/diagramName1"
+        android:layout_width="331dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="1113dp"
+        android:layout_marginEnd="417dp"
+        android:layout_marginBottom="94dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/diagramName0"
+        android:layout_width="331dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="437dp"
+        android:layout_marginTop="1114dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="93dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/diagramName3"
+        android:layout_width="331dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="770dp"
+        android:layout_marginEnd="418dp"
+        android:layout_marginBottom="437dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/diagram1"
+        android:layout_width="356dp"
+        android:layout_height="271dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="853dp"
+        android:rotation="90"
+        android:layout_marginEnd="408dp"
+        android:layout_marginBottom="146dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars[2]" />
+
+    <ImageView
+        android:id="@+id/diagram0"
+        android:layout_width="356dp"
+        android:layout_height="271dp"
+        android:rotation="90"
+        android:layout_marginStart="427dp"
+        android:layout_marginTop="853dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="146dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars[2]" />
+
+    <ImageView
+        android:id="@+id/diagram2"
+        android:layout_width="356dp"
+        android:layout_height="271dp"
+        android:layout_marginStart="417dp"
+        android:layout_marginTop="515dp"
+        android:layout_marginEnd="17dp"
+        android:rotation="90"
+        android:layout_marginBottom="484dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars[2]" />
+
+    <ImageView
+        android:id="@+id/diagram3"
+        android:layout_width="356dp"
+        android:layout_height="271dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="515dp"
+        android:layout_marginEnd="408dp"
+        android:layout_marginBottom="484dp"
+        android:rotation="90"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars[2]" />
+
+    <ImageView
+        android:id="@+id/diagram4"
+        android:layout_width="356dp"
+        android:layout_height="271dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="232dp"
+        android:layout_marginTop="174dp"
+        android:layout_marginEnd="202dp"
+        android:layout_marginBottom="825dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars[2]" />
+
+    <TextView
+        android:id="@+id/diagramName4"
+        android:layout_width="331dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="247dp"
+        android:layout_marginTop="431dp"
+        android:layout_marginEnd="212dp"
+        android:layout_marginBottom="776dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="680dp"
+        android:layout_height="143dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="1117dp"
+        android:gravity="center"
+        android:text="Previous Appointments"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

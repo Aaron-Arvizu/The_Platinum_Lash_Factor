@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fullPage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CovidForm">
+
+    <TextView
+        android:id="@+id/covid2view"
+        android:layout_width="749dp"
+        android:layout_height="965dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="285dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="30dp"
+        android:text="             I also understand that the novel coronavirus, COVID-19, has been declared a worldwide pandemic by the World Health Organization. I further understand that COVID-19 is extremely contagious and is belived to spread by person-to-person contact and accordingly, federal and state health agencies recommend social distancing. \n \n             I recognize that the technicians at Platinum Lashes are closely monitoring this situation and have put in place reasonable preventative measures targeted to reduce the spread of COVID-19. Given the nature of the virus, however, I understand there is an inherent risk ofbecoming infected with COVID-19 by virtue of proceeding with this elective service/treatment. \n \n          Accordingly. I acknowledge and assume the risk of becoming infected with COVID-19 through this elective service/treatment, and I give my express permission for the technicians and staff at Platinum Lashes to proceed with the same. \n \n            I understand that even if I have been tested for COVID-19 and received a negativve test result, the tests in some cases may fail to detect the virus or I may have contracted COVID-19 after the test. I understand that if I have a COVID-19 infection and even if I do not have any symptoms, proceeding with this elective treatment/procedure can lead to a higher chance of complication and death."
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/covidNameBox"
+        android:layout_width="769dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="13dp"
+        android:text="                                                    understand that I am opting for an elective service/treatment that is not urgent and is not necessary."
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/covid2view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TitleText" />
+
+    <TextView
+        android:id="@+id/covidNameBox2"
+        android:layout_width="769dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="13dp"
+        android:text="         I                                "
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/covid2view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TitleText" />
+
+    <TextView
+        android:id="@+id/covidNameBox3"
+        android:layout_width="769dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="202dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="1008dp"
+        android:text=""
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TitleText"
+        android:layout_width="753dp"
+        android:layout_height="119dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="71dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="1090dp"
+        android:gravity="center"
+        android:text="PLATINUM LASHES \n INFORMED CONSENT - COVID-19 PANDEMIC"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/initialArea"
+        android:layout_width="177dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="1109dp"
+        android:layout_marginEnd="577dp"
+        android:layout_marginBottom="71dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@color/common_google_signin_btn_text_dark_default" />
+
+    <TextView
+        android:id="@+id/initialText"
+        android:layout_width="250dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="1075dp"
+        android:layout_marginEnd="504dp"
+        android:layout_marginBottom="153dp"
+        android:text=" Initials below"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/nxtBtn"
+        android:layout_width="213dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="513dp"
+        android:layout_marginTop="1067dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="38dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/nxtbtn" />
+
+    <TextView
+        android:id="@+id/nxtText"
+        android:layout_width="132dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="594dp"
+        android:layout_marginTop="1059dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="183dp"
+        android:text="Next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

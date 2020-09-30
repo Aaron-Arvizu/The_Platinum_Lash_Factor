@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".AddClient">
+
+    <EditText
+        android:id="@+id/lName"
+        android:layout_width="610dp"
+        android:layout_height="103dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginBottom="767dp"
+        android:background="@drawable/rounded_corner"
+        android:ems="10"
+        android:hint="Last Name"
+        android:inputType="textCapWords"
+        android:textColorLink="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/mName"
+        android:layout_width="232dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginEnd="473dp"
+        android:layout_marginBottom="903dp"
+        android:background="@drawable/rounded_corner"
+        android:ems="10"
+        android:hint="Middle Initial"
+        android:inputType="textCapWords"
+        android:maxLength="1"
+        android:textColorLink="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/fName"
+        android:layout_width="610dp"
+        android:layout_height="103dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginBottom="1047dp"
+        android:background="@drawable/rounded_corner"
+        android:ems="10"
+        android:hint="First Name"
+        android:inputType="textCapWords"
+        android:textColorLink="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/addDataBtn"
+        android:layout_width="333dp"
+        android:layout_height="119dp"
+        android:layout_marginStart="239dp"
+        android:layout_marginTop="1013dp"
+        android:layout_marginEnd="228dp"
+        android:layout_marginBottom="148dp"
+        android:text="Add"
+        android:background="@drawable/rounded_corner"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageToUpload"
+        android:layout_width="323dp"
+        android:layout_height="239dp"
+        android:layout_marginStart="239dp"
+        android:layout_marginTop="577dp"
+        android:layout_marginEnd="238dp"
+        android:layout_marginBottom="464dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/ic_add_a_photo_black_24dp" />
+
+    <Button
+        android:id="@+id/uploadBtn"
+        android:layout_width="180dp"
+        android:layout_height="79dp"
+        android:background="@drawable/rounded_corner"
+        android:layout_marginStart="310dp"
+        android:layout_marginTop="837dp"
+        android:layout_marginEnd="310dp"
+        android:layout_marginBottom="364dp"
+        android:text="Upload Image"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "566822370866",
+    "firebase_url": "https://lash-demo-mk-iv.firebaseio.com",
+    "project_id": "lash-demo-mk-iv",
+    "storage_bucket": "lash-demo-mk-iv.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:566822370866:android:ac1a27cb46a8766f",
+        "android_client_info": {
+          "package_name": "com.platinumlashes.lashdemomkiv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "566822370866-pab1atd2lkk4d96b6jginkdel93ekbop.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8BGWaixvyLeJ2TIo-BUm70jkGeIes4PQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "566822370866-pab1atd2lkk4d96b6jginkdel93ekbop.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
